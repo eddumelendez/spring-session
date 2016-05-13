@@ -35,7 +35,8 @@ import org.springframework.session.data.couchbase.SessionDataConverter;
  * Couchbase backed HTTP session configuration.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @author Eddú Meléndez
+ * @since 1.3.0
  */
 @Configuration
 @EnableSpringHttpSession
@@ -70,5 +71,13 @@ public class CouchbaseHttpSessionConfiguration implements ImportAware {
 		AnnotationAttributes attributes = AnnotationAttributes.fromMap(attributesByNames);
 		this.timeoutInSeconds = attributes.getNumber("timeoutInSeconds");
 		this.principalSessionsEnabled = attributes.getBoolean("principalSessionsEnabled");
+	}
+
+	public void setTimeoutInSeconds(int timeoutInSeconds) {
+		this.timeoutInSeconds = timeoutInSeconds;
+	}
+
+	public void setPrincipalSessionsEnabled(boolean principalSessionsEnabled) {
+		this.principalSessionsEnabled = principalSessionsEnabled;
 	}
 }
