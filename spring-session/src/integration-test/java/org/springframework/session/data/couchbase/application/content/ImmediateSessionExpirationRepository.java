@@ -25,7 +25,7 @@ import org.springframework.session.data.couchbase.SessionDataConverter;
  * A {@link CouchbaseSessionRepository} that immediately expires HTTP session.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 public class ImmediateSessionExpirationRepository extends CouchbaseSessionRepository {
 

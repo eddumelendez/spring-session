@@ -33,7 +33,7 @@ import org.springframework.context.annotation.ComponentScan;
  * services.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 @Documented
 @Target(ElementType.TYPE)

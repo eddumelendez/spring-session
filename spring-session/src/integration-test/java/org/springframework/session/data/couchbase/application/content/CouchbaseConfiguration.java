@@ -26,7 +26,7 @@ import org.springframework.data.couchbase.repository.config.EnableCouchbaseRepos
  * Integration tests Couchbase configuration.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 @Configuration
 @EnableCouchbaseRepositories

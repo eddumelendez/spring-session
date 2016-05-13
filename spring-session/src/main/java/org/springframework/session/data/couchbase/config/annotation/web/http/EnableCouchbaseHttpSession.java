@@ -28,7 +28,7 @@ import org.springframework.context.annotation.Import;
  * Enables Couchbase backed HTTP sessions.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 @Documented
 @Target(ElementType.TYPE)

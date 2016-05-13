@@ -31,7 +31,7 @@ import org.springframework.session.data.couchbase.config.annotation.web.http.Ena
  * Application for testing expiring of HTTP session expiration.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 @IntegrationTestApplication
 @EnableCouchbaseHttpSession(timeoutInSeconds = ExpirationTestApplication.SESSION_TIMEOUT, principalSessionsEnabled = ExpirationTestApplication.PRINCIPAL_SESSIONS_ENABLED)

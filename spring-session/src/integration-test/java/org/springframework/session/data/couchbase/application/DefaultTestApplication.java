@@ -23,7 +23,7 @@ import org.springframework.session.data.couchbase.config.annotation.web.http.Ena
  * Application for testing HTTP session.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 @IntegrationTestApplication
 @EnableCouchbaseHttpSession(timeoutInSeconds = DefaultTestApplication.SESSION_TIMEOUT, principalSessionsEnabled = DefaultTestApplication.PRINCIPAL_SESSIONS_ENABLED)

@@ -26,7 +26,7 @@ import org.springframework.web.context.request.RequestAttributes;
  * Sample session scoped bean for integration tests.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 @Component
 @Scope(value = RequestAttributes.REFERENCE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)

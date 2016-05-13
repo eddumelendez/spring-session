@@ -33,7 +33,7 @@ import org.springframework.util.Assert;
  * The data is persisted to Couchbase database.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 public class CouchbaseSessionRepository
 		implements FindByIndexNameSessionRepository<CouchbaseSession> {

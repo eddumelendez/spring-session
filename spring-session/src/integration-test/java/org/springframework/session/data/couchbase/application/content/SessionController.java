@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Sample controller for integration tests.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 @RestController
 @RequestMapping("session")

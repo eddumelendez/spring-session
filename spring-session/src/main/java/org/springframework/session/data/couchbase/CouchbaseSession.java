@@ -35,7 +35,7 @@ import org.springframework.util.Assert;
  * An {@link ExpiringSession} that supports principals HTTP sessions.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 public class CouchbaseSession implements ExpiringSession, Serializable {
 

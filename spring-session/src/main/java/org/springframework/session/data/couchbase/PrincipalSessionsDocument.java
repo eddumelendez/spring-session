@@ -27,7 +27,7 @@ import org.springframework.data.couchbase.core.mapping.Document;
  * A Couchbase document used for persisting principal HTTP sessions data.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  * @see org.springframework.session.FindByIndexNameSessionRepository
  */
 @Document

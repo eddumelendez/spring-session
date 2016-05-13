@@ -33,7 +33,7 @@ import org.springframework.util.SerializationUtils;
  * Converts between {@link CouchbaseSession} and {@link SessionDocument}.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 public class SessionDataConverter implements GenericConverter {
 

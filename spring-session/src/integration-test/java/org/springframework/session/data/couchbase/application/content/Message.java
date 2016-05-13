@@ -21,7 +21,7 @@ import java.io.Serializable;
  * Sample HTTP session attribute value for integration tests.
  *
  * @author Mariusz Kopylec
- * @since 1.2.0
+ * @since 1.3.0
  */
 public class Message implements Serializable {
 
